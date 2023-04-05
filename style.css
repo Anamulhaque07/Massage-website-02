@@ -1,0 +1,180 @@
+/* css &html reset starts here  */
+*::after *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* css reset ends here  */
+
+/* header section style starts here  */
+
+.yellow{
+    background-color: #fdc001;
+    width: 100%;
+    height: 2.2rem;
+}
+
+/* .full_bg {
+    /* background: url(./images/banner.jpg); */
+    /* width: 100%;
+    height: 100vh; */
+    /* background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+ */ */
+
+ul li {
+    font-size: 1.2rem;
+}
+ul li a{
+    position: relative;
+}
+ul li a::after{
+    content: "";
+    position: absolute;
+    background-color: #fdc001;
+    width: 0;
+    height: 3px;
+    left: 0;
+    bottom:-1px;
+    transition: .3s;
+}
+ul li a:hover::after{
+    width: 100%;
+}
+
+.nav__logo:hover{
+ background-color: #fdc001;
+}
+.nav-link:hover{
+    color: #fdc001;
+    transition: .6s;
+}
+/* header section style ends here  */
+
+/* carousel section style starts here  */
+.carousel-inner{
+    font-family: 'Times New Roman', Times, serif;
+}
+.main-row {
+    align-items: center;
+}
+.heading-style{
+    font-size: 5rem;
+}
+
+.btn{
+    padding: 15px 40px;
+    border-radius: 50px;
+    border: none;
+}
+.btn:hover{
+    background-color: #fdc001;
+    transition: .6s;
+}
+.carousel-img{
+    width: 100%;
+}
+/* carousel section style ends here  */
+
+/* form section style starts here  */
+.appointment h2{
+   font-size: 2.8rem;
+}
+/* form section style ends here  */
+
+/* priceing section style starts here  */
+.our_priceing{
+    background-color: white;
+    position: relative;
+    width: 100%;
+    height: 20rem;
+    margin-top: 20px;
+}
+.our_pri{
+    background: #fdc001;
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    left: 40px;
+    bottom: 36px;
+    line-height: 30px;
+}
+.our_pri span strong{
+    font-size: 5rem;
+}
+/* priceing section style ends here  */
+
+/* about section style starts here  */
+.about__img::before{
+    position: absolute;
+    content: "";
+    background: #fff;
+    width: 60%;
+    height: 100%;
+    left: -30px;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+.about__img{
+    position: relative;
+    z-index: 9999;
+    padding: 30px 0;
+}
+.titlePage h3{
+    font-size: 3.2rem;
+    font-weight: bold;
+}
+.row.py-5 {
+    align-items: center;
+}
+/* about section style ends here  */
+
+/* footer section style here  */
+/* footer section ende here  */
+
+
+/* .header__container{
+    position: relative;
+}
+
+.carousel-control-prev {
+    width: 55px;
+    height: 55px;
+    top: 101%;
+    left: 43%;
+    background: white;
+    opacity: 1;
+    font-size: 49px;
+    box-shadow: 0 0 10px #bfbfbfe3;
+    z-index: 9999;
+    border-radius: 50px;
+    position: absolute;
+}
+.carousel-control-next {
+    width: 55px;
+    height: 55px;
+    top: 101%;
+    right: 43%;
+    background-color: #fff;
+    color: #000;
+    font-size: 40px;
+    opacity: 1;
+    box-shadow: 0 0 10px rgba(13, 3, 3, 0.38);
+    z-index: 999;
+    border-radius: 50px;
+    position: absolute;
+} */
+
